@@ -41,11 +41,21 @@ jobs:
 
           echo "bump=$bump" >> $GITHUB_OUTPUT
 
-      - name: Bump version
+      - name: Bump version and tag
+        id: version
         run: |
+          # Bump version in package.json
           npm version ${{ steps.bump.outputs.bump }} --no-git-tag-version
+
+          # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Commit the version bump
           git add package.json package-lock.json || true
-          git commit -m "ci: bump ${{ steps.bump.outputs.bump }} version [ci-trigger]" || echo "No changes to commit"
+          git commit -m "ci: bump ${{ steps.bump.outputs.bump }} version" || echo "No changes to commit"
           git push
+
+          # Create Git tag with the new version
+          git tag -a "v$NEW_VERSION" -m "Version $NEW_VERSION"
+          git push origin "v$NEW_VERSION"
