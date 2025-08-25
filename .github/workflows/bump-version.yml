@@ -47,6 +47,10 @@ jobs:
           # Bump version in package.json
           npm version ${{ steps.bump.outputs.bump }} --no-git-tag-version
 
+          # Capture new version
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          echo "bumped_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+
           # Configure Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
