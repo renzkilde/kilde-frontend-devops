@@ -1,6 +1,6 @@
 {
   "name": "kilde-frontend",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "proxy": "https://test2-investor.kilde.sg",
   "private": true,
   "dependencies": {
