@@ -1,0 +1,139 @@
+.ant-tour-buttons .ant-btn.ant-btn-sm {
+  border-radius: 14px;
+  padding: 0px 18px;
+  gap: 4px;
+  height: 32px;
+  font-size: 12px;
+}
+
+.ant-tour-prev-btn {
+  color: var(--kilde-blue);
+  border: none;
+  box-shadow: none;
+  color: var(--black-100, #1a202c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: var(--12, 12px);
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+  padding: 8px 16px;
+}
+
+.ant-tour-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ant-tour-buttons:has(> button:only-child) {
+  justify-content: flex-end;
+}
+
+.ant-tour-buttons .ant-tour-next-btn {
+  background-color: var(--kilde-blue);
+}
+
+.ant-tour-buttons .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+  border-color: var(--kilde-blue);
+  background-color: var(--kilde-blue);
+}
+
+.ant-tour-buttons
+  .ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+  color: var(--kilde-blue);
+  border-color: var(--kilde-blue);
+}
+
+.ant-tour-buttons .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color: var(--kilde-blue);
+  border-color: var(--kilde-blue);
+}
+
+.pt-progress-bar .ant-progress-steps-item {
+  width: 45px !important;
+  margin-inline-end: 8px !important;
+  border-radius: var(--80, 80px);
+}
+
+.ant-tour-indicators {
+  display: none !important;
+}
+
+.ant-tour-header {
+  padding: 0px 0px 8px 0px !important;
+}
+
+.tour-p {
+  display: flex;
+  padding: 2px var(--8, 8px);
+  align-items: center;
+  border-radius: var(--8, 8px);
+  background: var(--Primary-Blue, #22b5e9);
+  height: 22px;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.tour-p span {
+  color: var(--white-100, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.ant-tour {
+  max-width: fit-content;
+}
+
+.ant-tour-inner {
+  max-width: 366px;
+  padding: var(--24, 24px);
+}
+
+.ant-tour-description {
+  padding: 0px !important;
+}
+
+.ant-tour-footer {
+  padding: 12px 0px 0px 0px !important;
+}
+
+.skip-btn {
+  margin-top: 20px;
+  color: var(--kilde-blue);
+  border: none;
+  box-shadow: none;
+  color: var(--black-100, #1a202c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: var(--12, 12px);
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+  padding: 8px 16px;
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+.skip-btn span:hover {
+  color: var(--kilde-blue);
+}
+
+@media (max-width: 768px) {
+
+  .pt-progress-bar .ant-progress-steps-item {
+    width: 40px !important;
+    margin-inline-end: 4px !important;
+  }
+
+  .ant-tour-buttons .ant-btn {
+    padding: 0px 12px;
+    height: 28px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ant-tour-inner {
+    max-width: 295px;
+  }
+}

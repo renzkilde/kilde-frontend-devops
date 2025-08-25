@@ -1,0 +1,21 @@
+.profit-val-detail {
+  display: flex;
+  align-items: center;
+  text-align: end;
+  justify-content: flex-end;
+}
+
+.profit-total-income-tag {
+  font-size: 14px;
+  color: #1a202c;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.profit-total-income-val-tag {
+  font-size: 14px;
+  color: #1a202c;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: end;
+}

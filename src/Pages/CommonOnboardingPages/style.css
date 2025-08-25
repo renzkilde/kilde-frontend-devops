@@ -1,0 +1,36 @@
+.banner-subdiv {
+  color: "var(--kilde-blue)";
+}
+
+.onboard-banner-div {
+  display: flex;
+  width: 936px;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--16, 16px);
+  background: var(--white-100, #fff);
+  box-shadow: 2px 2px 34px 0px rgba(47, 47, 47, 0.05);
+}
+
+.banner-head {
+  color: var(--Primary-Blue, #22b5e9);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+
+.banner-desc {
+  color: var(--Primary-Blue, #22b5e9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+@media (max-width: 576px) {
+  .banner-subdiv {
+    margin-bottom: 8px;
+  }
+}

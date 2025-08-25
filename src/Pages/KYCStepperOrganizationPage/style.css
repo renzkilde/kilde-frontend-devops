@@ -1,0 +1,77 @@
+.stepper-killed .ant-steps-item-process .ant-steps-item-icon {
+  color: #fff !important;
+  border: 2px solid var(--kilde-blue) !important;
+}
+
+.stepper-killed .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: var(--kilde-blue) !important;
+}
+
+.stepper-killed .ant-steps-item-finish .ant-steps-item-icon svg {
+  color: #fff !important;
+  margin-top: 7px !important;
+}
+
+.typeform-embed {
+  border-radius: 16px !important;
+}
+
+.typeform-embed span {
+  font-size: 14px !important;
+}
+
+.survey-div {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 42px;
+  background-color: var(--kilde-blue);
+  max-width: 300px;
+}
+
+.survey-form-text {
+  color: var(--white-100, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.survey-btn {
+  border-radius: var(--12, 12px);
+  background: var(--white-100, #fff);
+  justify-content: center;
+  align-items: center;
+  gap: var(--8, 8px);
+  color: var(--kilde-no-use-22-b-5-e-9, #22b5e9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.survey-btn:hover {
+  background: var(--white-100, #fff) !important;
+  color: var(--kilde-no-use-22-b-5-e-9, #22b5e9) !important;
+  border: none;
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .stepper-killed .ant-steps-item-finish .ant-steps-item-icon svg {
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .survey-div {
+    margin-top: 16px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+}

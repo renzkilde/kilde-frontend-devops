@@ -1,0 +1,128 @@
+.sb-onboarding-form-container {
+  width: 680px;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  border-radius: var(--24, 24px);
+  background: var(--white-100, #fff);
+}
+
+.kilde-onboarding-form-container {
+  width: 680px;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  border-radius: var(--24, 24px);
+  background: var(--white-100, #fff);
+}
+
+.sb-onboarding-register-form-container {
+  width: 680px;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  border-radius: var(--24, 24px);
+  background: var(--white-100, #fff);
+}
+
+.sb-onboarding-register-v2-form-container {
+  width: 680px;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  border-radius: var(--24, 24px);
+  background: var(--white-100, #fff);
+}
+
+.singpass-sub-text {
+  color: var(--black-80, rgba(28, 28, 28, 0.8));
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+
+.register-padd-container {
+  padding: 0px 100px 0 100px;
+}
+
+.forgot-pass-subdiv {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.fp-link {
+  color: var(--kilde-blue);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.password-hint {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+    max-height 0.5s ease-in-out;
+}
+
+.password-hint.show {
+  opacity: 1;
+  max-height: 200px; /* Adjust this value to match content */
+  transform: translateY(0);
+}
+
+@media (max-width: 1300px) {
+  .sb-onboarding-form-container {
+    width: 680px;
+    max-width: 680px;
+    padding: 80px;
+  }
+
+  .register-padd-container {
+    padding: 0px 75px 0 75px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sb-onboarding-form-container {
+    width: 680px;
+    max-width: 680px;
+  }
+  .register-padd-container {
+    padding: 0px 75px 0 75px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sb-onboarding-form-container {
+    width: 630px;
+    max-width: 630px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sb-onboarding-form-container {
+    width: 100%;
+  }
+  .sb-onboarding-register-form-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .sb-onboarding-form-container {
+    width: 100%;
+    padding: 48px 28px !important;
+  }
+
+  .register-padd-container {
+    padding: 0px 15px 0 15px;
+  }
+
+  .fp-head {
+    font-size: 20px;
+  }
+}

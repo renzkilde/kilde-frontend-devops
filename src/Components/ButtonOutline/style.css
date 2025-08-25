@@ -1,0 +1,25 @@
+.sb-button-outline {
+  border-radius: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 50px;
+  color: var(--black);
+  width: 250px;
+  border-width: 2px;
+}
+
+.sb-button-outline:hover {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--gray);
+}
+
+.sb-button-outline:active {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--gray);
+}

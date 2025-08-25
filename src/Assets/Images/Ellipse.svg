@@ -1,0 +1,22 @@
+<svg width="194" height="194" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="194" height="194" fill="#D2D2D2"/>
+<g id="105.2. Identity Proof" clip-path="url(#clip0_46_21006)">
+<rect width="1440" height="1024" transform="translate(-623 -436)" fill="white"/>
+<g id="Group 1000002869">
+<g id="Frame 2">
+<circle id="Ellipse 447" cx="97" cy="97" r="97" fill="#CDE2FF" fill-opacity="0.6"/>
+<circle id="Ellipse 448" cx="97" cy="97" r="75" fill="#C2DCFF"/>
+<circle id="Ellipse 449" cx="96.5" cy="96.5" r="53.5" fill="#9CC6FF"/>
+<circle id="Ellipse 450" cx="96.5" cy="96.5" r="36.5" fill="#67A7FF"/>
+<g id="tick">
+<path id="Vector" d="M83 97L92.4175 108L111.286 86" stroke="white" stroke-width="3.91702" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_46_21006">
+<rect width="1440" height="1024" fill="white" transform="translate(-623 -436)"/>
+</clipPath>
+</defs>
+</svg>

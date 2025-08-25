@@ -1,0 +1,21 @@
+{
+  "short_name": "Kilde",
+  "name": "KILDE - Regulated platform for alternative investments",
+  "description": "We make it easy for institutions and high-net-worth individuals to invest in private debt. Our products offer safe and controlled access to consumer and small business loans, giving investors a diversified portfolio with smart risk management.",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

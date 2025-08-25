@@ -1,0 +1,30 @@
+* {
+  font-family: "Inter Tight", sans-serif !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.kl-fixed-text {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: #fff;
+}
+
+.react-tel-input .country-list {
+  text-align: left !important;
+}
+
+.react-tel-input .country-list .search {
+  display: flex !important;
+}

@@ -1,0 +1,220 @@
+.help-desk-tab-div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.help-desk-stepper-div {
+  max-width: 203px;
+}
+
+.help-desk-tab-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.help-desk-tab-active-div {
+  border-radius: 8px;
+  background: var(--white-100, #fff);
+  display: flex;
+  padding: var(--8, 8px) var(--12, 12px);
+  align-items: center;
+  gap: var(--8, 8px);
+  cursor: pointer;
+}
+
+.help-desk-collapse .ant-collapse-item {
+  border-bottom: none;
+}
+
+.help-desk-collapse {
+  background-color: var(--white-100);
+}
+
+.help-desk-collapse .ant-collapse-header {
+  border-radius: 16px;
+  background: rgba(26, 32, 44, 0.02);
+  margin-bottom: 16px;
+}
+
+.ant-collapse-header[aria-expanded="true"] {
+  margin-bottom: 0;
+  border-radius: 16px 16px 0 0;
+}
+
+.help-desk-collapse .ant-collapse-content-box {
+  border-radius: 0 0 16px 16px;
+  background: rgba(26, 32, 44, 0.02);
+  margin-bottom: 16px;
+}
+
+.help-desk-collapse .ant-collapse-header-text {
+  color: var(--black-100, #1a202c);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.helpdesk-subdiv {
+  padding: 24px;
+  border-radius: var(--16, 16px);
+  background: var(--white-100, #fff);
+}
+
+.help-desk-collapse .ant-collapse-item:last-child .ant-collapse-header {
+  border-radius: 16px;
+}
+
+.help-desk-collapse
+  .ant-collapse-item:last-child
+  .ant-collapse-header[aria-expanded="true"] {
+  border-radius: 16px 16px 0 0;
+}
+
+.helpdesk-description {
+  color: rgb(26 32 44 / 60%);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.helpdesk-description a {
+  color: var(--kilde-blue);
+  text-decoration: underline;
+}
+
+.help-desk-select input::placeholder {
+  color: var(--dark-blue-20) !important;
+  opacity: 1;
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+.help-desk-select.ant-select {
+  width: 100%;
+}
+
+.help-desk-select .ant-select-selector {
+  border-radius: var(--12, 12px);
+  border: 1px solid var(--dark-blue-20, rgba(26, 32, 44, 0.2));
+  background: var(--white-100, #fff);
+  padding: 4px 15px !important;
+  height: 40px !important;
+}
+
+.help-desk-select .ant-select-selection-placeholder {
+  color: var(--dark-blue-20);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.help-desk-select .ant-select-selection-item {
+  display: flex;
+  align-items: center;
+}
+.help-desk-select .ant-select-selection-item {
+  display: flex;
+  align-items: center;
+}
+
+.help-desk-select-label {
+  display: flex;
+  align-items: center;
+}
+
+.help-desk-label {
+  color: var(--black-100, #1a202c);
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 8px;
+}
+
+.help-desk-sub-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 24px;
+}
+
+.sb-stepper-progress-help-desk.stepper-div.media-stepper-margin {
+  max-width: calc(100% - 274px);
+}
+
+.ant-collapse-header-text {
+  width: calc(100% - 40%);
+  display: block;
+  box-sizing: border-box;
+  padding: 0px 25px 0 0;
+}
+
+.hide-help-desk-desktop {
+  display: none;
+}
+
+.helpdesk-header:hover {
+  color: var(--kilde-blue);
+}
+
+.help-desk-carousel-btn {
+  border-radius: var(--8, 8px);
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+  padding: 4px;
+}
+.help-desk-carousel-btn:hover {
+  border-radius: var(--8, 8px);
+  background: var(--black-5, rgba(28, 28, 28, 0.05));
+}
+
+.owl-next {
+  position: absolute;
+  top: -78px;
+  right: 12px;
+}
+
+.owl-prev {
+  position: absolute;
+  top: -78px;
+  right: 48px;
+}
+
+@media (min-width: 1900px) {
+  .help-desk-collapse .ant-collapse-header-text {
+    font-size: 18px;
+  }
+
+  .helpdesk-description {
+    font-size: 16px;
+  }
+
+  .kl-pi-subdivtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .help-desk-tab-main-div {
+    display: none;
+  }
+
+  .help-desk-sub-main-div {
+    gap: 0;
+  }
+
+  .sb-stepper-progress-help-desk.stepper-div.media-stepper-margin {
+    max-width: 100%;
+  }
+
+  .hide-help-desk-desktop {
+    display: block;
+  }
+}

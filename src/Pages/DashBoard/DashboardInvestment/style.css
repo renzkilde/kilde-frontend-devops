@@ -1,0 +1,232 @@
+.invest-outstanding-p {
+  color: #4aa785;
+  font-size: 12px;
+  line-height: 18px;
+  background: #def8ee;
+  padding: 4px 8px;
+  border-radius: 80px;
+  text-align: center;
+  display: inline;
+}
+
+.invest-committed-p {
+  color: #59a8d4;
+  font-size: 12px;
+  line-height: 18px;
+  background: #e2f5ff;
+  padding: 4px 8px;
+  border-radius: 80px;
+  text-align: center;
+  display: inline;
+}
+
+.invest-repaid-p {
+  color: #9e9fc3;
+  font-size: 12px;
+  line-height: 18px;
+  background: #eeefff;
+  padding: 4px 8px;
+  border-radius: 80px;
+  text-align: center;
+  display: inline;
+}
+.invest-inprogress-p {
+  color: #1a202ccc;
+  font-size: 12px;
+  line-height: 18px;
+  background: rgba(0, 0, 0, 0.06);
+  padding: 4px 8px;
+  border-radius: 80px;
+  text-align: center;
+  display: inline;
+}
+
+.invest-table-warning-msg {
+  color: #ff4747;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.dashborad-inv-text {
+  color: #1a202c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+}
+
+.dashboard-invest-card {
+  background: var(--white);
+  border-radius: 16px;
+}
+
+.dashboard-invest-card-topDiv {
+  padding: 24px;
+  border-bottom: 1px solid var(--black-5, rgba(26, 32, 44, 0.05));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-invest-card-bottomDiv {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-invest-cancel-button-icon {
+  border-radius: 12px;
+  border: 1px solid #ff4747;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.dashboard-approved-reserved-invest-button-icon {
+  border-radius: 12px;
+  border: 1px solid var(--kilde-blue);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.dashboard-invest-cancel-button-icon.ant-btn {
+  padding: 4px 10px;
+}
+.dashboard-approved-reserved-invest-button-icon.ant-btn {
+  padding: 4px 10px;
+}
+
+.dashboard-invest-cancel-button-icon:hover {
+  border-color: #ff4747 !important;
+}
+.dashboard-approved-reserved-invest-button-icon:hover {
+  border-color: var(--kilde-blue) !important;
+}
+.dashboard-invest-view-button-icon {
+  border-radius: 12px;
+  border: 1px solid var(--kilde-blue);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+
+.dashboard-invest-cancel-title {
+  color: #ff4747;
+  font-size: 14px;
+  line-height: 20px;
+}
+.dashboard-reserved-invest-title {
+  color: var(--kilde-blue);
+  font-size: 14px;
+  line-height: 20px;
+}
+.dashboard-invest-view-title {
+  color: var(--kilde-blue);
+  font-size: 14px;
+  line-height: 20px;
+}
+.dashboard-invest-view-button-icon img {
+  margin-left: 4px;
+}
+.dashboard-invest-cancel-button-icon img {
+  margin-left: 4px;
+}
+.dashboard-approved-reserved-invest-button-icon img {
+  margin-left: 4px;
+}
+
+.dashboard-invest-btn-div {
+  display: flex;
+  gap: 4px;
+}
+
+.sorting-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.no-investment-div {
+  border-radius: var(--16, 16px);
+  background: #fff;
+  height: 260px;
+  align-content: center;
+}
+
+.dashboard-sorting-selectbox .ant-select-selector {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.dashboard-sorting-selectbox .ant-select-selector:focus {
+  box-shadow: none !important;
+}
+
+.ant-pagination-options .ant-select-selector {
+  border: 1px solid var(--black-10, rgba(26, 32, 44, 0.1));
+  border-radius: 8px;
+  cursor: pointer !important;
+}
+
+.commit-progress-row p {
+  font-size: 12px;
+  color: #1a202c !important;
+}
+.commit-progress-row h3 {
+  font-size: 14px !important;
+  color: #1a202c !important;
+}
+
+.btns-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.not-sorting-div {
+  display: none;
+}
+
+@media (max-width: 403px) {
+  .d-flex {
+    flex-wrap: nowrap;
+  }
+  .d-flex p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dashboard-sorting-selectbox {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-view {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .dashboard-invest-cancel-button-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .dashboard-invest-view-button-icon {
+    height: 40px;
+    width: 40px;
+  }
+}

@@ -1,0 +1,26 @@
+.passkey-done-container {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.passkey-done-container h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--black-100, #1a202c);
+}
+
+.passkey-done-container p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(26, 32, 44, 0.6);
+  margin-top: -10px;
+}

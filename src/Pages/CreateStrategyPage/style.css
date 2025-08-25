@@ -1,0 +1,113 @@
+.input-label {
+  color: #1a202c66;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.input-span-below {
+  color: #1a202c33;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.page-title {
+  color: #000;
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+
+  font-family: "Inter Tight";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.create-stratergy-radio-group {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.edit-stratergy-radio-group {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.stratergy-mutiple-selectbox .ant-select-selector {
+  border: none !important;
+  padding-inline: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  height: 30px !important;
+}
+
+.create-stratergy-dashed {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: flex-start;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 100px;
+}
+
+.flex-item-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.stratergy-main-div {
+  margin-top: 24px;
+}
+
+.radio-strategy-div {
+  margin-top: 40px;
+}
+
+.acceptance-btn {
+  color: var(--kilde-blue);
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+.acceptance-btn:hover {
+  color: var(--kilde-blue);
+}
+
+@media (max-width: 768px) {
+  .stratergy-main-div {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .stratergy-radio {
+    border-radius: 12px !important;
+    height: 36px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .stratergy-radio label {
+    display: none;
+  }
+  .create-stratergy-radio-group {
+    gap: 8px;
+  }
+  .edit-stratergy-radio-group {
+    gap: 8px;
+  }
+  .radio-strategy-div {
+    margin-top: 32px;
+  }
+}

@@ -1,0 +1,981 @@
+.kl-filter-input {
+  border-radius: var(--12, 12px);
+  border: 1px solid var(--black-20, rgba(26, 32, 44, 0.2));
+  background: var(--white-80, rgba(255, 255, 255, 0.8));
+  padding: var(--8, 8px) var(--12, 12px);
+  height: 34px;
+}
+
+.kl-filter-input.ant-input::placeholder {
+  color: var(--dark-blue-20) !important;
+  opacity: 1;
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+.kd-filter-select input::placeholder {
+  color: var(--dark-blue-20) !important;
+  opacity: 1;
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+
+.kd-filter-select.ant-select {
+  width: 100%;
+}
+
+.kd-filter-select .ant-select-selector {
+  border-radius: var(--12);
+  border: 1px solid var(--dark-blue-10, rgba(26, 32, 44, 0.1));
+  background: var(--white-80, rgba(255, 255, 255, 0.8));
+  padding: var(--8, 8px) var(--12, 12px);
+  height: 34px;
+}
+
+.kd-filter-select .ant-select-selection-placeholder {
+  color: var(--dark-blue-20);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ant-select-show-search.sb-select.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector
+  input {
+  height: 100%;
+}
+
+.invest-subtitle {
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--black-40, rgba(26, 32, 44, 0.4));
+}
+
+.invest-subtitle-active {
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--kilde-blue);
+  border-bottom: 2px solid var(--kilde-blue);
+}
+
+.invest-maindiv {
+  display: flex;
+  gap: 16px;
+}
+
+.invest-button {
+  display: flex;
+  gap: var(--8, 8px);
+}
+
+.invest-page-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.v2-invest-page-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-direction: column;
+}
+
+.strategy-btn-div {
+  display: flex;
+  gap: 16px;
+}
+
+.strategy-btn {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.edit-stratergy-icon {
+  color: #22b5e9;
+  transition: color 0.3s;
+}
+
+.delete-stratergy-icon {
+  color: #22b5e9;
+  transition: color 0.3s;
+}
+
+.strategy-btn:hover .delete-stratergy-icon {
+  color: #ff0000;
+}
+
+.stratergy-status-div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.active-stratergy-span {
+  width: 5px;
+  border-radius: 50%;
+  height: 5px;
+  background-color: #a1e3cb;
+}
+
+.pause-invest-span {
+  width: 5px;
+  border-radius: 50%;
+  height: 5px;
+  background-color: #1a202c66;
+}
+
+.active-stratergy-p {
+  color: #4aa785;
+}
+
+.pause-invest-p {
+  color: var(--black-40, rgba(26, 32, 44, 0.4));
+}
+
+.card-val-tag {
+  font-size: 12px;
+  text-align: end;
+  font-weight: 600;
+  color: var(--black-100, #1a202c);
+  line-height: 18px;
+  overflow-wrap: break-word;
+}
+
+.card-val-stratergy-tag {
+  font-size: 12px;
+  text-align: end;
+  font-weight: 500;
+  color: var(--black-100, #1a202c);
+  line-height: 18px;
+}
+
+.dashboard-card-val-tag {
+  font-size: 12px;
+  text-align: end;
+  font-weight: 400;
+  color: var(--black-100, #1a202c);
+  line-height: 18px;
+}
+
+.card-profit-val-tag {
+  font-size: 12px;
+  text-align: end;
+  font-weight: 400;
+  color: var(--black-100, #1a202c);
+  line-height: 18px;
+}
+
+.withdraw-card-tag {
+  font-size: 12px;
+  text-align: end;
+  color: var(--black-100, #1a202c);
+  line-height: 18px;
+}
+
+.card-info-tag {
+  line-height: 18px;
+  font-size: 12px;
+  color: var(--black-40, rgba(26, 32, 44, 0.4));
+}
+
+.invest-col {
+  display: none;
+}
+
+.ant-tabs-tab {
+  padding: 0px !important;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--kilde-blue);
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  background-color: var(--kilde-blue);
+}
+
+.expand-btn {
+  padding: 0 !important;
+  border: none !important;
+  height: 0 !important;
+  line-height: 0 !important;
+}
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.tranch-card-mainImg {
+  border-radius: 16px 16px 0px 0px;
+  height: 216px;
+}
+
+.funded-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invest-showfilterbutton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 32px;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.inv-card-divider {
+  margin: 12px 0;
+}
+
+.filter-res-modal .ant-modal-content {
+  padding: 0;
+}
+
+.filter-res-modal {
+  margin-top: 50px;
+}
+
+.filter-modal-divider .ant-divider-horizontal {
+  margin: 20px 0px;
+}
+
+.filter-modal-divider {
+  margin: 0;
+}
+
+.tranche-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.tranche-id {
+  color: #1a202c66;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.tranche-header {
+  color: var(--black-100, #1a202c);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-family: "Inter Tight";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.tranche-name {
+  color: var(--black-100, #1a202c);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.tranche-tag {
+  border-radius: var(--16, 16px);
+  background: var(--black-10, rgba(26, 32, 44, 0.1));
+  color: var(--black-80, rgba(26, 32, 44, 0.8));
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  border: none;
+  margin-right: 0;
+}
+
+.filter-subtitle {
+  color: var(--black-100, #1a202c);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.list-view-div {
+  padding: 40px !important;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.trache-table th.ant-table-cell {
+  color: var(--black-40, rgba(26, 32, 44, 0.4)) !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 18px;
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-family: "Inter Tight";
+}
+
+.trache-table td.ant-table-cell {
+  font-size: 12px;
+  color: #1a202c !important;
+}
+
+.trache-table .ant-table-pagination-right {
+  justify-content: start;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: none;
+}
+
+.trache-table tbody tr:nth-child(even) {
+  background: rgba(26, 32, 44, 0.02);
+}
+
+.ant-pagination-item-active {
+  color: black;
+}
+
+.tranch-table-pagination.ant-pagination {
+  margin-top: 20px;
+}
+
+.trache-table th::before {
+  display: none;
+}
+
+.trache-table td::before {
+  display: none;
+}
+
+.finish-onboard-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  border-radius: var(--16, 16px);
+  background: var(--white-100, #fff);
+  box-shadow: 2px 2px 34px 0px rgba(47, 47, 47, 0.05);
+}
+
+.tranch-list-skeleton
+  .ant-skeleton.ant-skeleton-element
+  .ant-skeleton-button-lg {
+  width: 366px;
+  height: 216px;
+  border-radius: 16px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.not-found-text {
+  color: var(--black-20, #1a202c33);
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.ant-tabs-tab-btn {
+  font-size: 18px;
+  color: #1a202c66;
+  font-weight: 600;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  border-radius: var(--8, 8px);
+  background: var(--black-5, rgba(26, 32, 44, 0.05));
+  border: none;
+}
+
+.ant-pagination .ant-pagination-item-active:hover {
+  border: none;
+  border: none;
+  border-radius: var(--8, 8px);
+  background: var(--black-5, rgba(26, 32, 44, 0.05));
+}
+
+.ant-pagination .ant-pagination-item-active:hover a {
+  color: #1a202c;
+}
+
+.ant-pagination-item a {
+  color: var(--black-40, rgba(26, 32, 44, 0.4)) !important;
+}
+
+.ant-pagination-item-active a {
+  color: #1a202c !important;
+}
+
+.card-desc {
+  overflow: hidden;
+  color: var(--black-100, #1a202c);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.invest-buttoncard {
+  border-radius: 12px;
+  background: var(--kilde-blue);
+  padding: 6px 16px 8px 16px;
+  height: 36px;
+  border: none;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.invest-buttoncard-disabled {
+  border-radius: var(--12, 12px);
+  background: var(--black-10, rgba(26, 32, 44, 0.1));
+  padding: 6px 16px 8px 16px;
+  height: 36px;
+  border: none;
+  justify-content: center;
+}
+
+.invest-buttoncard-disabled span {
+  color: var(--black-20, rgba(26, 32, 44, 0.2));
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.invest-buttoncard span {
+  color: var(--white);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.invest-buttoncard-table {
+  border-radius: 12px;
+  background: var(--kilde-blue);
+  padding: 1px 8px;
+  height: auto;
+  border: none;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.invest-buttoncard-table-disabled {
+  border-radius: var(--12, 12px);
+  background: var(--black-10, rgba(26, 32, 44, 0.1));
+  padding: 1px 8px;
+  height: auto;
+  border: none;
+  justify-content: center;
+}
+
+.invest-buttoncard-table-disabled span {
+  color: var(--black-20, rgba(26, 32, 44, 0.2));
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.invest-buttoncard-table span {
+  color: var(--white);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ant-tabs-top .ant-tabs-nav::before {
+  border-bottom: none;
+}
+
+.tranche-id .ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 15px;
+}
+
+.filterlist {
+  border-radius: var(--8, 8px);
+  background: var(--black-5, rgba(26, 32, 44, 0.05));
+  display: flex;
+  padding: var(--4, 4px) var(--8, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--4, 4px);
+  width: fit-content;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: none;
+}
+
+.filterData {
+  color: var(--black-100, #1a202c);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-family: "Inter Tight";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.custom-modal-overlay {
+  padding: var(--20, 20px);
+  border-radius: var(--12, 12px);
+  border: 1px solid var(--black-10, rgba(26, 32, 44, 0.1));
+  background: var(--white-100, #fff);
+  margin-top: 15px;
+}
+
+.modal-title {
+  color: var(--black-100, #1a202c);
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  margin: 0px;
+  font-family: "Inter Tight";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.modal-subtitle {
+  color: var(--Primary-Blue, #22b5e9);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: underline;
+}
+
+.filter-modal {
+  display: none;
+}
+
+.country-flag .fi {
+  width: 1.299em;
+  line-height: 0.88em;
+}
+
+.manual-inv-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.manual-inv-card .credit-rating-badge {
+  height: 100%;
+}
+
+.manual-inv-card span > span {
+  height: 100%;
+}
+
+.manual-card-bottom-div {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 216px);
+}
+
+.tranche-card-content {
+  flex: 1;
+}
+
+.invest-button-container {
+  margin-top: auto;
+  width: 100%;
+}
+
+.currency-filter-div {
+  display: flex;
+  gap: 15px;
+}
+
+.active-tab {
+  border-radius: 0;
+  border: 1px solid var(--kilde-blue) !important;
+  color: var(--kilde-blue) !important;
+}
+
+.create_stratergy_btn {
+  display: flex;
+  padding: 18px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--kilde-blue);
+  color: var(--white-100, #fff);
+  line-height: 20px;
+  border: none;
+}
+
+.create_stratergy_btn:hover {
+  color: var(--white-100, #fff) !important;
+  border: none;
+}
+
+.auto-invest-card {
+  display: flex;
+  width: 328px;
+  padding: var(--24, 24px) !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  border-radius: var(--16, 16px);
+  background: #fff;
+  width: 100%;
+}
+
+.tranch-list-skeleton
+  .ant-skeleton.ant-skeleton-element.ant-skeleton-active
+  .ant-skeleton-image {
+  border-radius: 16px 16px 0px 0px;
+  height: 215px !important;
+}
+
+.ant-skeleton-image {
+  border-radius: 16px 16px 0px 0px !important;
+}
+
+.financial-logo {
+  display: flex;
+  width: 79.161px;
+  height: 35px;
+  padding: 7.5px 3.13px 7.5px 4.156px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.financial-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+:where(.css-dev-only-do-not-override-19gw05y).ant-btn:not(
+    :disabled
+  ):focus-visible {
+  outline: 4px solid transparent;
+  outline-offset: 1px;
+  transition: outline-offset 0s, outline 0s;
+}
+
+.autoInvest-tbl tbody tr:nth-child(even) {
+  background-color: transparent !important;
+}
+
+.autoInvest-tbl .ant-table-cell {
+  padding: 6px 16px !important;
+}
+
+.startegy-card-btn-div {
+  display: flex;
+  gap: 4px;
+}
+
+.table-stratedy-name:hover {
+  color: var(--kilde-blue);
+  cursor: pointer;
+}
+
+.tranch-table-pagination {
+  position: relative;
+}
+
+.tranch-table-pagination .ant-pagination-options {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.autoInvest-tbl .ant-table-thead > tr > td:first-child {
+  background: transparent !important;
+}
+
+.drawer-header .ant-drawer-header {
+  padding: 12px 48px !important;
+}
+
+.drawer-close-button {
+  width: 24px;
+  height: 24px;
+}
+
+.card-margin-top {
+  margin-top: 0 !important;
+}
+
+.card-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.filter-desktop-comp {
+  max-width: 220px;
+  top: 60px;
+  position: sticky;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+}
+
+.filter-desktop-comp::-webkit-scrollbar {
+  margin-top: 50px;
+  width: 5px;
+}
+
+.filter-desktop-comp::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.filter-desktop-comp::-webkit-scrollbar-track {
+  background-color: var(--kilde-blue);
+}
+
+.ant-progress-line {
+  font-size: 0px !important;
+}
+
+.fund-progress .ant-progress-bg {
+  height: 4px !important;
+}
+
+.fund-progress .ant-progress-inner {
+  border-radius: 100px;
+}
+
+.new-label-badge [title="New"] {
+  z-index: 2 !important;
+  color: white !important;
+  background: var(--kilde-blue) !important;
+  box-shadow: 0 0 0 1px var(--kilde-blue) !important;
+  transform: translate(-100%, 25%) !important;
+}
+
+.credit-rating-badge .ant-badge-count {
+  z-index: auto;
+  min-width: 50px;
+  height: 50px;
+  color: var(--kilde-blue);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 50px;
+  white-space: nowrap;
+  text-align: center;
+  background: white;
+  border-radius: 25px;
+  box-shadow: 0 0 0 1px var(--kilde-blue);
+  transition: background 0.2s;
+  font-weight: 600;
+  transform: translate(-30%, 25%);
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1600px) {
+  .manual-inv-card {
+    width: 370px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .tranch-list-skeleton
+    .ant-skeleton.ant-skeleton-element
+    .ant-skeleton-button-lg {
+    width: 270px;
+    height: 216px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 1078px) {
+  .tranch-list-skeleton
+    .ant-skeleton.ant-skeleton-element
+    .ant-skeleton-button-lg {
+    width: 250px;
+    height: 216px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .invest-filter {
+    display: none;
+  }
+
+  .show-filter-list {
+    display: none;
+  }
+
+  .filter-modal {
+    display: flex;
+  }
+
+  .showFilterModal {
+    display: none;
+  }
+
+  .custom-modal-overlay {
+    display: none;
+  }
+
+  .card-sub-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .invest-col {
+    display: block;
+  }
+
+  .card-btn {
+    border-radius: 16px;
+    background: #1a202c1a;
+    font-size: 10px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .inv-card-divider {
+    margin: 12px 0;
+  }
+
+  .filter-res-modal .ant-modal-close {
+    top: 10px;
+    right: 48px;
+    border: 1px solid var(--black-5, rgba(26, 32, 44, 0.05));
+    border-radius: 50%;
+    padding: 3px;
+  }
+
+  .filter-modal-head {
+    color: var(--black-100, #1a202c);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px 48px;
+  }
+
+  .filter-media-input-div {
+    padding: 28px 20px;
+  }
+
+  .tranch-list-skeleton
+    .ant-skeleton.ant-skeleton-element
+    .ant-skeleton-button-lg {
+    width: 500px;
+    height: 216px;
+    border-radius: 16px;
+  }
+
+  .modal-filtered-data {
+    width: 100%;
+  }
+
+  .create_stratergy_btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .invest-subtitle {
+    font-size: 18px;
+  }
+
+  .invest-subtitle-active {
+    font-size: 18px;
+  }
+
+  .invest-button {
+    display: none;
+  }
+
+  .invest-filter {
+    display: none;
+  }
+
+  .invest-col {
+    display: block;
+  }
+
+  .filter-modal-div {
+    padding: 0px;
+  }
+
+  .finish-onboard-div {
+    display: block;
+    padding: 20px;
+  }
+
+  .tranch-list-skeleton
+    .ant-skeleton.ant-skeleton-element
+    .ant-skeleton-button-lg {
+    width: 500px;
+    height: 216px;
+    border-radius: 16px;
+  }
+
+  .ant-tabs-tab-btn {
+    font-size: 14px;
+  }
+
+  .filter-media-input-div {
+    padding: 28px 20px;
+  }
+
+  .filter-modal-head {
+    color: var(--black-100, #1a202c);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 12px 20px;
+  }
+
+  .filter-res-modal .ant-modal-close {
+    right: 20px;
+  }
+
+  .modal-filtered-data {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ant-pagination .ant-pagination-options {
+    display: block;
+  }
+}

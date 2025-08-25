@@ -1,0 +1,46 @@
+.sb-kiled-link-button {
+  color: var(--kilde-blue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.5px;
+}
+
+.verification-checkbox .ant-checkbox {
+  align-self: flex-start;
+}
+
+.ant-checkbox-wrapper {
+  line-height: 1.2;
+}
+
+.checkbox-kilde
+  .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover
+  .ant-checkbox-inner,
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+  border-color: 2px solid var(--kilde-blue);
+}
+
+.checkbox-kilde .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: var(--kilde-blue);
+  border-color: var(--kilde-blue);
+}
+
+.ant-checkbox .ant-checkbox-inner:after {
+  inset-inline-start: 27%;
+  width: 5px;
+  height: 8px;
+}
+
+.ant-checkbox:hover .ant-checkbox-checked:not(.ant-checkbox-disabled):after {
+  border-color: var(--kilde-blue);
+}
+
+.kilde-modal-button .ant-btn {
+  background-color: var(--kilde-blue);
+  border-color: var(--kilde-blue);
+}
+
+.kilde-step-icon .ant-steps-icon .ant-steps-item-finish .ant-steps-item-icon {
+  color: var(--kilde-blue);
+}

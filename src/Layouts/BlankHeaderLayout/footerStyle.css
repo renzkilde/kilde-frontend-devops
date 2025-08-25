@@ -1,0 +1,129 @@
+.first-div {
+   display: flex;
+   justify-content: space-between;
+}
+
+.sec-div {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.dashboard-footer-address-link {
+   display: none;
+}
+
+.hide-p-desktop {
+   display: none;
+}
+
+.p-only-mobile {
+   display: none;
+}
+
+.dashboard-footer-media-link {
+   display: none;
+}
+
+.dashboard-footer-tablet-link {
+   display: none;
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+   .footer-container {
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .first-div {
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .sec-div {
+      flex-direction: column;
+   }
+
+
+   .year-link {
+      display: none;
+   }
+}
+
+@media (max-width: 768px) {
+
+   .policy-m-hide {
+      display: none;
+   }
+
+   .media-a-class {
+      margin-top: 28px;
+   }
+
+   .dashboard-footer-tablet-link {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+   }
+
+   .dashboard-footer-tablet-link a {
+      font-size: 12px;
+      color: white !important;
+      text-decoration: none;
+   }
+
+   .address-l-hide {
+      display: none;
+   }
+
+   .hide-tablate-address {
+      display: none !important;
+   }
+
+   .dashboard-footer-address-link {
+      font-size: 12px;
+      color: white !important;
+      display: flex;
+      gap: 20px;
+      padding: 0 20px;
+   }
+
+   .dashboard-footer-address-link div:last-child {
+      margin-bottom: 16px;
+   }
+}
+
+@media (max-width: 576px) {
+   .sec-div {
+      flex-direction: column;
+      padding: 40px 20px;
+   }
+
+   .media-a-class {
+      margin-top: 0;
+      flex-direction: column;
+   }
+
+   .dashboard-footer-media-link {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 40px;
+   }
+
+   .dashboard-footer-media-link a {
+      font-size: 12px;
+      color: white !important;
+      text-decoration: none;
+   }
+
+   .dashboard-footer-tablet-link {
+      display: none;
+   }
+}

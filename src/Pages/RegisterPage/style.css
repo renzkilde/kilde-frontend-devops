@@ -1,0 +1,347 @@
+.sb-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sb-login-form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.login-form-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.sb-login-stepcount p {
+  color: var(--kilde-blue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sb-forgot-new-here {
+  margin-top: 25px;
+  text-align: center;
+}
+.singpass-datepicker {
+  padding: 8px 11px 8px;
+  border-radius: 12px;
+}
+.sb-forgot-new-here a {
+  color: var(--kilde-blue);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 13.5px;
+  margin-left: 5px;
+}
+.sb-login-actions .sb-button-default {
+  width: 250px;
+}
+
+.sb-pdf-modal .ant-modal-close {
+  top: 8px !important;
+}
+
+.sb-pdf-modal .ant-modal-close-icon {
+  font-size: 20px;
+}
+
+.sb-login-actions .ant-divider-plain {
+  margin: 0px 0px 10px 0px;
+}
+.test-google-css iframe {
+  margin: 0 !important;
+  width: 100% !important;
+}
+.referral-error {
+  border: 1px solid red;
+  border-radius: 12px;
+}
+.or-line {
+  text-align: center;
+  font-size: 19px;
+  margin: 0;
+  font-weight: 700;
+}
+.register-btn-div {
+  padding: 4px 0px 10px 0px;
+}
+.register-v2-btn-div {
+  padding: 4px 0px 0px 0px;
+}
+.test-google-css > div {
+  width: 100%;
+}
+
+.btn-singpass {
+  padding: 0px 15px 80px 15px;
+  width: 100%;
+  border-radius: 12px;
+  border-color: var(--black-10, rgba(26, 32, 44, 0.1)) !important;
+  background: rgba(248, 247, 242, 0.3);
+}
+.singpass-text {
+  font-size: 14px;
+  color: #1a202c;
+}
+
+.btn-singpass .ant-btn-loading-icon {
+  position: absolute;
+  left: 106px;
+  top: 32px;
+}
+
+.termsofuse:hover {
+  text-decoration: underline;
+}
+
+.ant-form-item .ant-form-item-explain-error {
+  color: #e74c3c !important;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: start;
+}
+
+.password-hint {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out,
+    max-height 0.5s ease-in-out;
+}
+
+.password-hint.show {
+  opacity: 1;
+  max-height: 200px; /* Adjust this value to match content */
+  transform: translateY(0);
+}
+
+.terms-register-div {
+  margin: 28px auto;
+  text-align: center;
+  /* width: 286px; */
+}
+
+.reg-v2 {
+  padding: 60px 0px;
+}
+
+.go-back-register-btn {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.go-back-register-btn span:hover {
+  color: var(--black-100, #1a202c);
+}
+
+.go-back-register-btn div {
+  display: none;
+}
+
+.max-w-384 {
+  max-width: 384px;
+}
+
+.onboarding-container {
+  max-width: 384px;
+  margin: 80px auto;
+}
+
+.onboarding-divider {
+  margin: 0 !important;
+}
+
+.onboarding-divider .ant-divider-inner-text p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--main-color-1-a-202-c-40, rgba(26, 32, 44, 0.4));
+  line-height: 18px;
+}
+
+.onboarding-divider .ant-divider-inner-text {
+  padding: 0 10px;
+}
+
+.kilde-onboarding-form-container
+  .ant-divider-horizontal.ant-divider-with-text::before,
+.kilde-onboarding-form-container
+  .ant-divider-horizontal.ant-divider-with-text::after {
+  border-block-start-color: var(--black-10, rgba(26, 32, 44, 0.1)) !important;
+}
+
+.register-v2-page-checkbox {
+  max-width: 286px;
+  margin: auto;
+  color: var(--main-color-1-a-202-c-60, rgba(26, 32, 44, 0.6));
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.register-v2-page-checkbox a {
+  color: var(--main-color-1-a-202-c-60, rgba(26, 32, 44, 0.6));
+}
+
+.rv2-singpass-sub-text {
+  color: var(--main-color-1-a-202-c-80, rgba(26, 32, 44, 0.8));
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.register-v2-sub-title {
+  color: var(--main-color-1-a-202-c-60, rgba(26, 32, 44, 0.6));
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.authentication-form {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.reg-v2-p {
+  padding: 0 !important;
+}
+
+.pdf-iframe {
+  height: 80vh; /* use viewport height instead of fixed px */
+  border: none;
+}
+
+.register-v2-container {
+  width: 680px;
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
+  border-radius: var(--24, 24px);
+  background: var(--white-100, #fff);
+  padding: 80px;
+}
+
+.register-v2-onboarding-container {
+  max-width: 384px;
+  margin: auto;
+}
+
+.register-v2-header-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.register-v2-btn-singpass {
+  padding: 2px 15px 80px 15px;
+  width: 100%;
+  height: 84px;
+  border-radius: 12px;
+  border-color: var(--black-10, rgba(26, 32, 44, 0.1)) !important;
+  background: rgba(248, 247, 242, 0.3);
+}
+
+.register-v2-singpassbutton-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.register-v2-btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.v2-link {
+  color: var(--kilde-blue);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.v2-link:hover {
+  color: var(--kilde-blue);
+}
+
+@media (max-width: 768px) {
+  .register-v2-container {
+    width: 100%;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sb-login-container {
+    padding: 20px 44px 66px;
+    width: 40vw;
+  }
+}
+@media (max-width: 1024px) {
+  .sb-login-container {
+    padding: 20px 40px 66px 40px;
+    margin: 60px auto;
+    width: 45vw;
+  }
+}
+@media (max-width: 992px) {
+  .sb-login-container {
+    width: 75%;
+    padding: 20px 60px 66px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pdf-iframe {
+    height: 90vh; /* taller on smaller devices for better view */
+  }
+}
+
+@media (max-width: 575px) {
+  .sb-login-container {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 20px 20px 66px 20px;
+  }
+
+  .register-redirect-link {
+    display: grid;
+    gap: 3px;
+  }
+
+  .onboarding-container {
+    margin: 40px 28px;
+  }
+
+  .authentication-form {
+    gap: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .sb-login-container {
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .register-redirect-link {
+    display: grid;
+    gap: 3px;
+  }
+}

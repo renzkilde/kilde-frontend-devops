@@ -1,0 +1,124 @@
+.identify-proof-mainDiv {
+  background-color: white;
+  border-radius: 16px 16px 0px 0px;
+  padding: 40px;
+}
+
+.thankyou-mainDiv {
+  background-color: white;
+  border-radius: 16px;
+  padding: 80px 40px;
+  max-width: 700px;
+}
+
+.edit-identifybtn svg {
+  color: var(--kilde-blue);
+}
+
+.sb-form-header {
+  font-size: 20px;
+}
+
+.error-div {
+  display: flex;
+  padding: var(--16, 16px) var(--12, 12px);
+  align-items: center;
+  border-radius: var(--16, 16px);
+  border: 1px solid rgba(255, 71, 71, 0.4);
+  background: rgba(255, 71, 71, 0.3);
+}
+
+.error-div .ant-alert-error {
+  background-color: transparent;
+}
+
+.error-div .ant-alert {
+  padding: 0px;
+}
+
+.error-div .ant-alert .ant-alert-content {
+  word-break: break-word;
+}
+
+.sb-identify-fileupload
+  .ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload.ant-upload-select,
+.sb-identify-fileupload
+  .ant-upload-wrapper.ant-upload-picture-circle-wrapper
+  .ant-upload.ant-upload-select {
+  width: 100%;
+  max-width: 480px;
+  min-height: 184px;
+  height: auto;
+  border: 1px dashed var(--dark-blue-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-upload {
+  flex-direction: column;
+  column-gap: 15px;
+}
+
+.sb-identify-fileupload
+  .ant-upload-wrapper.ant-upload-picture-card-wrapper
+  .ant-upload.ant-upload-select:not(.ant-upload-disabled):hover {
+  border-color: var(--light-gray);
+}
+
+.ant-notification
+  .ant-notification-notice
+  .ant-notification-notice-icon-info.anticon {
+  color: var(--kilde-blue);
+}
+
+.notes-tag {
+  font-size: 12px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  line-height: 18px;
+  color: #1a202c;
+}
+
+.modal-head {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.riskTag-modal ant-modal ant-modal-content {
+  padding: 40px !important;
+  border-radius: 16px;
+}
+
+.list-ul {
+  padding-left: 25px;
+}
+
+.list-ul li {
+  list-style-type: circle;
+}
+
+.identify-notes-margin {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+@media (max-width: 576px) {
+  .identify-proof-mainDiv {
+    padding: 28px;
+  }
+
+  .identify-notes-margin {
+    margin-bottom: 28px;
+    margin-top: 28px;
+  }
+
+  .thankyou-mainDiv {
+    padding: 28px;
+  }
+}

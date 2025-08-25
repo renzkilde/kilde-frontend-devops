@@ -1,0 +1,9 @@
+.not-found-main-div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  height: calc(100vh - 426px);
+}

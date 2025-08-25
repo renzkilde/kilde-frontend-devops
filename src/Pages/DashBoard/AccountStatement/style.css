@@ -1,0 +1,397 @@
+.filter-date-div {
+  display: flex;
+  gap: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.filter-date-div p {
+  color: var(--black-40, rgba(26, 32, 44, 0.4));
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.filter-date-picker {
+  border-radius: var(--12, 12px);
+  border: 1px solid var(--black-10, rgba(26, 32, 44, 0.1));
+  background: var(--white-80, rgba(255, 255, 255, 0.8));
+}
+
+.acc-filter-checkbox span {
+  color: var(--black-80, rgba(26, 32, 44, 0.8));
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.acc-filter-radio .ant-radio-checked .ant-radio-inner {
+  border-color: var(--kilde-blue) !important;
+  background-color: var(--kilde-blue) !important;
+}
+
+.acc-filter-radio span {
+  color: var(--black-80, rgba(26, 32, 44, 0.8));
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.acc-filter-radio .ant-space-vertical {
+  gap: 4px !important;
+}
+
+.summary-table-div {
+  border-radius: var(--16, 16px);
+  background: var(--white-100, #fff);
+  display: flex;
+  padding: var(--40, 40px) !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--28, 28px);
+  align-self: stretch;
+  max-width: 896px;
+}
+
+.summary-pagination-div {
+  max-width: 896px;
+}
+
+.summary-table-p {
+  color: var(--black-100, #1a202c);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.summary-table-openClose-p {
+  color: var(--black-100, #1a202c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.summary-table-openClose-value {
+  color: var(--black-100, #1a202c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: end;
+}
+
+.summary-table-textleft {
+  color: var(--black-100, #1a202c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.summary-table-textright {
+  color: var(--black-100, #1a202c);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.acc-summary-divider {
+  margin: 8px 0px;
+}
+
+.transaction-company-head {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.acc-status-div {
+  border-radius: var(--80, 80px);
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 4px 8px;
+}
+
+.acc-status-div p {
+  font-size: 10px;
+  line-height: 18px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.subscription {
+  background: #f1fbf2;
+}
+
+.subscription p {
+  color: #65cd6b;
+}
+
+.deposit {
+  background: #eff9ff;
+}
+
+.deposit p {
+  color: var(--kilde-blue);
+}
+
+.widthdrawal-request {
+  background: #d3f0fb;
+}
+
+.widthdrawal-request p {
+  color: var(--kilde-blue);
+}
+
+.withdraw {
+  background: #f4f4fe;
+}
+
+.withdraw p {
+  color: #989aff;
+}
+.repaid {
+  background: #eeefff;
+}
+
+.repaid p {
+  color: #9e9fc3;
+}
+
+.settlement {
+  background: #ecf9f5;
+}
+
+.settlement p {
+  color: #67b89b;
+}
+.repayment {
+  background: #e8e8e8;
+}
+
+.repayment p {
+  color: #797979;
+}
+.currency-exchange {
+  background: #eeefff;
+}
+
+.currency-exchange p {
+  color: #7ab5df;
+}
+.referral-payment {
+  background: #fff5e6;
+}
+
+.referral-payment p {
+  color: #e6a750;
+}
+.internal-transfer {
+  background: #fffbeb;
+}
+
+.internal-transfer p {
+  color: #e7cb66;
+}
+.fee {
+  background: #b1e3ff80;
+}
+
+.fee p {
+  color: #95a4fc;
+}
+
+.transaction-grid-btn-div {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.transaction-button {
+  display: flex;
+  gap: var(--8, 8px);
+}
+
+.transaction-card-date-div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.transaction-date-label {
+  color: var(--black-100, #1a202c);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+}
+
+.trans-company-label {
+  color: var(--black-100, #1a202c);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: end;
+  margin-top: 0;
+}
+
+.transaction-card {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 28px 40px !important;
+}
+
+.transaction-card-topDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-btn-div {
+  padding: 8px 0px 8px 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transaction-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.transaction-card-topDiv,
+.transaction-btn-div,
+.transaction-card-date-div,
+.transaction-card .row {
+  flex-grow: 1;
+}
+
+.transaction-card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.account-summary-main-div {
+  max-width: 896px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-summary-main-div button {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.account-summary-main-div button p {
+  color: var(--kilde-blue);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+}
+
+.export-excel {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  color: #1c1c1c66;
+}
+
+.export-excel div {
+  display: none;
+}
+
+.export-menu-item:hover .export-text {
+  color: #22b5e9;
+}
+
+.export-excel .xls_image_active,
+.export-excel .pdf_image_active {
+  display: none;
+}
+
+.export-excel:hover .xls_image,
+.export-excel:hover .pdf_image {
+  display: none;
+}
+
+.export-excel:hover .xls_image_active,
+.export-excel:hover .pdf_image_active {
+  display: inline;
+}
+
+.account-statement-export-dropdown {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--black-10, rgba(26, 32, 44, 0.1));
+  background: linear-gradient(
+      0deg,
+      var(--white-20, rgba(255, 255, 255, 0.2)) 0%,
+      var(--white-20, rgba(255, 255, 255, 0.2)) 100%
+    ),
+    var(--white-80, rgba(255, 255, 255, 0.8));
+  box-shadow: 2px 2px 34px 0px rgba(47, 47, 47, 0.05);
+  backdrop-filter: blur(20px);
+}
+
+.account-statement-export-dropdown li {
+  background: transparent !important;
+}
+
+.sub-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-checkbox-group .ant-checkbox-wrapper {
+  font-size: 11px;
+}
+
+.sub-checkbox-group .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: var(--kilde-blue);
+  background-color: var(--kilde-blue);
+}
+
+.view-noa-text {
+  color: var(--main-color-1-a-202-c-dark-blue, #1a202c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.acc-statementDoc-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .transaction-grid-btn-div {
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
+  .acc-statementDoc-div {
+    justify-content: center;
+  }
+}

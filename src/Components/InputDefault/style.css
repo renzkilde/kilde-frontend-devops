@@ -1,0 +1,71 @@
+.kl-input {
+  border-radius: var(--12);
+  border: 1px solid var(--dark-blue-10, rgba(26, 32, 44, 0.1));
+  background: var(--white-80, rgba(255, 255, 255, 0.8));
+  padding: var(--4, 4px) var(--12, 12px);
+  height: 40px;
+}
+
+input.ant-input::placeholder {
+  color: var(--dark-blue-20) !important;
+  opacity: 1;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-style: normal !important;
+}
+
+.error-msg {
+  color: #e74c3c !important;
+  font-size: 12px;
+  margin-top: 3px;
+  display: none;
+  text-align: start;
+}
+
+.phone-error-msg {
+  color: #e74c3c !important;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.select-error-msg {
+  color: #e74c3c !important;
+  font-size: 12px;
+  margin-top: 3px;
+  display: block;
+}
+
+input:invalid[focused="true"] ~ .error-msg {
+  display: block;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid #e74c3c;
+}
+
+.ant-select-status-error:not(.ant-select-disabled):not(
+    .ant-select-customize-input
+  ):not(.ant-pagination-size-changer)
+  .ant-select-selector {
+  border-color: #e74c3c !important;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ant-input[disabled] {
+  background-color: var(--white);
+}
+
+.noscroll::-webkit-outer-spin-button,
+.noscroll::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

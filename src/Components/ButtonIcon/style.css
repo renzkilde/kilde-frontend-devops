@@ -1,0 +1,31 @@
+.kl-button-icon {
+  border-radius: 12px;
+  border-color: var(--black-10, rgba(26, 32, 44, 0.1)) !important;
+  height: 40px;
+  background: var(--main-color-f-8-f-7-f-230, rgba(248, 247, 242, 0.3));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.kl-button-icon .ant-btn-icon {
+  position: absolute;
+  left: 120px;
+  font-size: 24px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.kl-button-icon .ant-btn-icon svg:hover {
+  color: black;
+}
+
+.kl-iconBtn-subtitle {
+  color: var(--main-color-1-a-202-c-dark-blue, #1a202c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}

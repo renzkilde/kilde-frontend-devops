@@ -1,0 +1,80 @@
+.sb-button-default {
+  border-radius: 12px;
+  background-color: var(--kilde-blue);
+  font-size: 18px;
+}
+
+.kl-button-default.ant-btn-default:disabled,
+.ant-btn-default.ant-btn-disabled {
+  /* background-color: var(--light-gray); */
+  border-radius: var(--12, 12px);
+  background: var(--black-5, rgba(26, 32, 44, 0.05));
+}
+
+.kl-button-default:disabled span {
+  color: #1a202c33 !important;
+}
+
+.kl-button-default {
+  border-radius: 12px;
+  background: var(--kilde-blue);
+  padding: 6px 16px 8px 16px;
+  height: 36px;
+  border: none;
+}
+
+.kl-button-default span {
+  color: var(--white-100, #fff);
+  text-align: center;
+  font-feature-settings: "cv11" on, "cv01" on, "ss01" on;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.sb-button-default:hover {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--kilde-blue);
+}
+
+.sb-button-default:active {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--kilde-blue);
+}
+
+.sb-button-kiled-default {
+  border-radius: 12px;
+  background-color: var(--kilde-blue);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  height: 50px;
+  color: var(--white);
+}
+
+.sb-button-kiled-default:hover {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--kilde-blue);
+}
+
+.sb-button-kiled-default:active {
+  color: var(--white) !important;
+  border: none !important;
+  transition: ease-in-out;
+  background-color: var(--kilde-blue);
+}
+
+.kl-button-default:hover {
+  background-color: var(--kilde-blue);
+  border-radius: 12px;
+  padding: 6px 16px 8px 16px;
+  height: 36px;
+  border: none;
+}

@@ -1,0 +1,44 @@
+.last-used-button {
+  border: 1px solid #000 !important;
+}
+
+.last-used-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.last-used-inline {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(34, 181, 233, 1);
+  background-color: rgba(211, 240, 251, 1);
+  padding: 2px 10px;
+  /* height: 20px; */
+  border-radius: 20px 20px 20px 0px;
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+/* Show label only on desktop */
+@media (min-width: 769px) {
+  .last-used-inline {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .last-used-inline {
+    display: inline-block;
+  }
+
+  .button-with-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
