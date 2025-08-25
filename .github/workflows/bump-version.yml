@@ -5,6 +5,9 @@ on:
     branches:
       - develop   # or the branch you want to track
 
+permissions:
+  contents: write   # allow workflow to push commits
+
 jobs:
   bump-version:
     runs-on: ubuntu-latest
