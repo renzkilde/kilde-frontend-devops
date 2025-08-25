@@ -41,6 +41,21 @@ jobs:
 
           echo "bump=$bump" >> $GITHUB_OUTPUT
 
+      # Determine environment prefix based on branch
+      - name: Determine environment
+        id: env
+        run: |
+          if [[ "${GITHUB_REF##*/}" == "develop" ]]; then
+            ENV_PREFIX="dev"
+          elif [[ "${GITHUB_REF##*/}" == "staging" ]]; then
+            ENV_PREFIX="stg"
+          elif [[ "${GITHUB_REF##*/}" == "production" ]]; then
+            ENV_PREFIX="prd"
+          else
+            ENV_PREFIX="unknown"
+          fi
+          echo "env_prefix=$ENV_PREFIX" >> $GITHUB_OUTPUT
+
       - name: Bump version and tag
         id: version
         run: |
@@ -61,5 +76,6 @@ jobs:
           git push
 
           # Create Git tag with the new version
-          git tag -a "v$NEW_VERSION" -m "Version $NEW_VERSION"
-          git push origin "v$NEW_VERSION"
+          TAG="${{ steps.env.outputs.env_prefix }}-v$NEW_VERSION"
+          git tag -a "$TAG" -m "Version $NEW_VERSION for ${{ steps.env.outputs.env_prefix }}"
+          git push origin "$TAG"
